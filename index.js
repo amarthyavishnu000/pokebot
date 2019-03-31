@@ -3,7 +3,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const port = process.env.PORT || 443,
     host = '0.0.0.0', // probably this change is not required
     externalUrl = "https://ca2r3.herokuapp.com",
-    token = process.env.TOKEN || '883467639:AAHyi2r51Y-ZmwXeuKOsXLqhWOAJA88dv6I',
+    token = process.env.TOKEN || '883467639:AAHyi2r51Y-ZmwXeuK0sXLqhW0AJA88dv6I',
     bot = new TelegramBot(token, {
         webHook: {
             port: port,
